@@ -1,1 +1,2 @@
-export * from  './Emoji';
+export * from  './Emoji/Emoji';
+export * from  './Dialog/Dialog';

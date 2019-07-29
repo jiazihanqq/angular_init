@@ -1,3 +1,5 @@
-<p>
-  horizontal-grid works!
-</p>
+<!-- 指定元素所在的元素叫做宿主 -->
+<div appGridItem  *ngFor='let item of channels'>
+  <img [src]="item.icon" alt="" [appGridItemImage] = "'4rem'" [fitMode] ="'cover'" >
+  <span appGridItemTitle = '1rem'>{{item.title}}</span>
+</div>
