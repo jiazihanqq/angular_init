@@ -1,5 +1,5 @@
-import { Component, ViewChild, AfterViewInit } from '@angular/core';
-import { TopMenu, ImageSlider, ImageSliderComponent } from './shared/component';
+import {Component, ViewChild, AfterViewInit} from '@angular/core';
+import {TopMenu, ImageSlider, ImageSliderComponent} from './shared/component';
 
 
 @Component({
@@ -7,21 +7,23 @@ import { TopMenu, ImageSlider, ImageSliderComponent } from './shared/component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements AfterViewInit{
-  @ViewChild("imageSlider", {static:true}) imgSlider : ImageSliderComponent;
-  constructor(){
+export class AppComponent implements AfterViewInit {
+  @ViewChild('imageSlider', {static: true}) imgSlider: ImageSliderComponent;
+
+  constructor() {
 
   }
 
   ngAfterViewInit(): void {
-    
+
   }
+
   topMenus: TopMenu[] = [
     {
-      title: "热门",
+      title: '热门',
       link: ''
     }, {
-      title: "男装",
+      title: '男装',
       link: ''
     }, {
       title: "手机",
@@ -32,6 +34,7 @@ export class AppComponent implements AfterViewInit{
   handleTabSelected(topMenu: TopMenu) {
     console.log(topMenu);
   }
+
   imageSliders: ImageSlider[] = [
     {
       imgUrl: "./../assets/image/以尔森.PNG",

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HorizontalGridComponent implements OnInit {
 
+  @Emoji() result = 'Hello';
   constructor() { }
 
   ngOnInit() {
