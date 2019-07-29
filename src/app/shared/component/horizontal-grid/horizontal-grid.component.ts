@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Emoji } from '../../decorators';
 
 @Component({
   selector: 'app-horizontal-grid',
