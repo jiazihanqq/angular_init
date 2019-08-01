@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({ 
+@Component({
   selector: 'app-shared',
   templateUrl: './shared.component.html',
   styleUrls: ['./shared.component.css']

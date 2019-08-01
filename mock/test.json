@@ -1,0 +1,60 @@
+{
+  "option": {},
+  "data": {
+    "conditions": [],
+    "properties": {
+      "leftValue": {
+        "name": "左侧数据",
+        "type": [
+          "number"
+        ],
+        "colorType": 0,
+        "isMore": true,
+        "bind": []
+      },
+      "rightValue": {
+        "name": "右侧数据",
+        "type": [
+          "number"
+        ],
+        "colorType": 0,
+        "isMore": true,
+        "bind": []
+      },
+      "yAxis": {
+        "name": "分类轴",
+        "type": [
+          "string"
+        ],
+        "isMore": false,
+        "bind": []
+      },
+      "legend": {
+        "name": "图例",
+        "type": [
+          "string"
+        ],
+        "colorType": 1,
+        "isMore": false,
+        "bind": []
+      },
+      "time": {
+        "name": "时间",
+        "type": [
+          "string"
+        ],
+        "isMore": false,
+        "bind": []
+      },
+      "time2": {
+        "name": "时间",
+        "type": [
+          "string"
+        ],
+        "isMore": false,
+        "bind": []
+      }
+    },
+    "default": []
+  }
+}
